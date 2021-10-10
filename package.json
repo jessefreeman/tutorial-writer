@@ -1,6 +1,6 @@
 {
-  "name": "ghost-writer",
-  "version": "0.1.0",
+  "name": "tutorial-writer",
+  "version": "0.1.2",
   "description": "A utility that converts Lua and C# script files into step by step tutorials formatted with Markdown.",
   "main": "index.js",
   "directories": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jessefreeman/ghost-writer.git"
+    "url": "git+https://github.com/jessefreeman/tutorial-writer.git"
   },
   "author": "Jesse Freeman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jessefreeman/ghost-writer/issues"
+    "url": "https://github.com/jessefreeman/tutorial-writer/issues"
   },
-  "homepage": "https://github.com/jessefreeman/ghost-writer#readme",
+  "homepage": "https://github.com/jessefreeman/tutorial-writer#readme",
   "dependencies": {
   }
 }

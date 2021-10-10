@@ -1,8 +1,8 @@
-# Ghost Writer
+# Tutorial Writer
 
 This is a simple utility for converting Lua and C# scripts into tutorials. I created this to help me automatically generate tutorials for [Pixel Vision 8](https://github.com/pixelvision8/pixelvision8).
 
-Please not this is designed for a very specific use case and may not work correctly on any Lua or C# file. You need to specially formate you code in a way that Ghost Writer can inspect.
+Please not this is designed for a very specific use case and may not work correctly on any Lua or C# file. You need to specially formate you code in a way that Tutorial Writer can inspect.
 
 Here is an example Lua script:
 
@@ -36,7 +36,7 @@ function Init()
 end
 ```
 
-In order to use Ghost Writer you'll want to install it from NPM and create a simple script that watches for any changes in Lua or C# files.
+In order to use Tutorial Writer you'll want to install it from NPM and create a simple script that watches for any changes in Lua or C# files.
 
 ```javascript
 const ghostWriter = require('../index');
@@ -49,12 +49,12 @@ var fileName = path.basename(filePath);
 
 var markdown = ghostWriter.toMarkdown(fileName, text, ghostWriter.luaTemplate);
 
-console.log("# Ghost Writer Markdown\n", markdown);
+console.log("# Tutorial Writer Markdown\n", markdown);
 ```
 
 Run the script and it will generate a string with the contents of the `code.lua` markdown in it.
 
-Here is a preview of how the example Lua script would look after Ghost Writer converts it:
+Here is a preview of how the example Lua script would look after Tutorial Writer converts it:
 
 ### Step 1
 
@@ -137,7 +137,7 @@ When you are done, you should have the following code in the `code.lua` file:
 08 end
 ```
 
-You can feed Ghost Writer different templates for other languages. Right now Lua is the most complete template. You can find these in the `templates` folder. Here is what the default `Lua Template` looks like:
+You can feed Tutorial Writer different templates for other languages. Right now Lua is the most complete template. You can find these in the `templates` folder. Here is what the default `Lua Template` looks like:
 
 ```javascript
 {

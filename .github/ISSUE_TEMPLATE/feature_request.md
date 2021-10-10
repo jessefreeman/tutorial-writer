@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: We'd love to hear any ideas you may have to help make Ghost Writer better.
+about: We'd love to hear any ideas you may have to help make Tutorial Writer better.
 title: ''
 labels: enhancement
 assignees: jessefreeman

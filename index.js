@@ -1,5 +1,5 @@
-const ghostWriter = require('./lib/ghost-writer');
+const tutorialWriter = require('./lib/tutorial-writer');
 
-ghostWriter.luaTemplate = require('./templates/lua-template').template;
+tutorialWriter.luaTemplate = require('./templates/lua-template').template;
 
-module.exports = ghostWriter;
+module.exports = tutorialWriter;
