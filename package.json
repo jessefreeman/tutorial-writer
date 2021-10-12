@@ -1,6 +1,6 @@
 {
   "name": "tutorial-writer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A utility that converts Lua and C# script files into step by step tutorials formatted with Markdown.",
   "main": "index.js",
   "directories": {
