@@ -1,6 +1,6 @@
 const stepsTemplates = {
     Step: "### Step {0}\n\r{1}\n\r{2}\n\r",
-    CreateFile: "Create a new file called `{0}.{1}` in your project folder.\n\r",
+    CreateFile: "Create a new file called `{0}` in your project folder.",
     Callout: "> {0}\n>\r",
     Code: "Add the following code to the {0}:",
     Condition: "Add the following condition to the {0}:",

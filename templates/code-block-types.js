@@ -1,3 +1,4 @@
+// These are supported code block types used by the parser so we don't rely on "magic strings" and have something to compare to.
 const codeBlockType = 
 {
     Code: "Code",

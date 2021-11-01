@@ -1,9 +1,11 @@
+// TODO this is broken and needs to be fixed based on the new Lua template with corrected regex.
+
 const steps = require('./step-templates');
 const patterns = require('./special-patterns');
 
 const csharpTemplate = {
-    language: 'Lua',
-    syntax: 'lua',
+    language: 'C#',
+    syntax: 'csharp',
     regexPatterns: {
         Field: /(public|protected|private|static|\s)( +[\w\<\>\[\]]+\s+)(\w+)/,
         Method: /[\w\<\>\[\]]+\s+(\w+) *\([^\)]*\)/,
