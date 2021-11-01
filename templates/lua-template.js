@@ -6,11 +6,11 @@ const luaTemplate = {
     syntax: 'lua',
     regexPatterns: {
         Variable: /(local)+\s+(\w+)/,
-        Function: /(function|\s)+\s+(\w+) *\([^\)]*\)/,
-        Condition: /if/,
-        Loop: /for/,
-        Else: /else/,
-        BlockEnd: /end/
+        Function: /\b(function)\b/,
+        Condition: /\b(if)\b/,
+        Loop: /\b(for)\b/,
+        Else: /\b(else)\b/,
+        BlockEnd: /\b(end)\b/
     },
     codeBlockTokens: {
         CommentBlockStart: "--[[",
